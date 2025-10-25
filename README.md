@@ -1,3 +1,10 @@
+### Ejercicio 1
+Error en el Dockerfile
+cambiar la linea:
+RUN npm ci
+por:
+RUN npm install
+
 ### Ejercicio 2 – PostgreSQL con persistencia
 
 1. Crear volumen:
